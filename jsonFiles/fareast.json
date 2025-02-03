@@ -1,0 +1,316 @@
+{
+    "pageName": "farEastAlacarte",
+    "components": [
+      {
+        "type": "MainSection",
+        "props": {
+          "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": {
+                "en": "Port Nature Hotel",
+                "tr": "Port Nature Otel",
+                "de": "Port Nature Hotel",
+                "ru": "Порт Натуре Отель"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            }
+          ],
+          "header":{
+              "en":"Far East A'La Carte",
+              "tr":"Far East A'La Carte",
+              "de":"All Day Dining A'La Carte",
+              "ru":"Дальневосточный A’La Carte"
+          },
+           "text":{
+              "en":"Experience the tantalizing tastes of the Far East at our restaurant, where we offer a diverse menu of traditional and contemporary dishes that will delight your taste buds. From aromatic curries to succulent stir-fries, Port Nature Far East restaurant.",
+              "tr":"Uzak Doğu'nun cezbedici lezzetlerini, damak zevkinize hitap edecek geleneksel ve çağdaş yemeklerden oluşan zengin bir menü sunan restoranımızda deneyimleyin. Aromatik körilerden etli kızartmalara, Port Nature Uzak Doğu restoranı.",
+              "de":"Verwöhnen Sie sich mit einem köstlichen kulinarischen Erlebnis vom Frühstück bis zum Abendessen in unserem ganztägig geöffneten Restaurant. Stillen Sie Ihren Hunger zu jeder Tageszeit mit unserer abwechslungsreichen Speisekarte und dem tadellosen Service in unserem ganztägig geöffneten Restaurant.",
+              "ru":"Насладитесь заманчивыми вкусами традиционных и современных блюд дальневосточной кухни, которые порадуют ваши вкусовые рецепторы. Дальневосточный ресторан в Port Nature предлагает все - от ароматного карри до сочного жареного картофеля фри."
+          },
+  
+          "span":{
+              "en":"Enjoy your holiday",
+              "tr":"Enjoy your holiday",
+              "de":"Enjoy your holiday",
+              "ru":"Enjoy your holiday"
+          },
+  
+          "videoLink":"https://www.youtube.com/embed/qs4HrhmnYK0"
+              
+          
+        }
+      },
+      
+      {
+         "type": "OtherOptions",
+        "props": {
+            "header":{
+              "en":"Other restaurants",
+              "tr":"Diğer Restoranlarımız",
+              "de":"Andere Restaurants",
+              "ru":"Другие рестораны"
+          },
+           "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1735805053933alldaydinning.png?alt=media&token=95850017-8cf6-4d08-b794-db614eece8f5",
+              "altText": {
+                "en": "Port Nature Hotel",
+                "tr": "Port Nature Otel",
+                "de": "Port Nature Hotel",
+                "ru": "Порт Натуре Отель"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1735805092550farEast.png?alt=media&token=ef502c0b-95fb-42a1-8a80-b526c6e8e3bb",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1735805117139french.png?alt=media&token=967a19fb-5420-4739-83f6-10a2ccd60768",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1735805175120seaside.png?alt=media&token=047b25c2-9f48-4f02-8c5c-8557223e4499",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1735805143142miniclubalacarte.png?alt=media&token=2d8e5eaf-732c-4f9f-9e3d-685f03c7347f",
+              "altText": {
+                "en": "Beach View",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+              },
+              "width": 1920,
+              "height": 1080
+            }
+          ],
+           "headers": [
+            {
+               "en": "ALL DAY DINNING",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+            },
+            {
+               "en": "FAR EAST RESTAURANT",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+            },
+            {
+               "en": "FRENCH RESTAURANT",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Дальневосточный"
+            },
+            {
+               "en": "SEA SIDE RESTAURANT",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+            },
+            {
+               "en": "MINI CLUB",
+                "tr": "Plaj Manzarası",
+                "de": "Strandblick",
+                "ru": "Вид на пляж"
+            }
+          ],
+  
+          "links": [
+            {
+               "en": "/all-day-dining-alacarte-restaurant",
+                "tr": "/all-day-dining-alacarte-restoran",
+                "de": "/alacarte-restaurant-all-day-dining",
+                "ru": "/alacarte-restoran-all-day-dining"
+            },
+            {
+               "en": "/far-east-alacarte-restaurant",
+                "tr": "/uzak-dogu-alacarte-restoran",
+                "de": "/alacarte-restaurant-far-east",
+                "ru": "/alacarte-restoran-dalnevostochniy"
+            },
+            {
+               "en": "/french-alacarte-restaurant",
+                "tr": "/fransiz-alacarte-restoran",
+                "de": "/alacarte-restaurant-french",
+                "ru": "/alacarte-restoran-francuzskiy"
+            },
+            {
+               "en": "/seaside-alacarte-restaurant",
+                "tr": "/seaside-alacarte-restoran",
+                "de": "/alacarte-restaurant-seaside",
+                "ru": "alacarte-restoran-seaside"
+            },
+            {
+               "en": "/mini-club-alacarte-restaurant",
+                "tr": "/mini-club-alacarte-restoran",
+                "de": "/alacarte-restaurant-mini-club",
+                "ru": "/alacarte-restoran-mini-club"
+            }
+          ]
+        }
+      },
+  
+      {
+        "type": "ContactSection",
+        "props": {
+            "header":{
+                "en":"Free contact call center",
+                "tr":"Ücretsiz Çağrı Merkezi",
+                "de":"Kostenloses Kontakt-Callcenter",
+                "ru":"Позвонить бесплатно в колл-центр"
+            },
+  
+            "text":{
+                "en":"Or online booking",
+                "tr":"Ya da online rezervasyon yapın",
+                "de":"Oder Online-Buchung",
+                "ru":"Или бронировать онлайн"
+            },
+  
+            "phone":"+ 90 (242) 731 07 07",
+            "email":"info@portnature.com.tr",
+  
+            "buttonText":{
+                "en":"Send",
+                "tr":"Gönder",
+                "de":"Schicken",
+                "ru":"Отправить"
+            },
+  
+            "buttonLink":{
+                "en":"/",
+                "tr":"/",
+                "de":"/",
+                "ru":"/"
+            },
+  
+            "image":{
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+              "altText": {
+                "en": "callcenter",
+                "tr": "callcenter",
+                "de": "callcenter",
+                "ru": "callcenter"
+              },
+              "width": 317,
+              "height": 283
+            },
+  
+             "header2":{
+                "en":"Send Message",
+                "tr":"Mesaj Gönder",
+                "de":"Nachricht senden",
+                "ru":"Отправить сообщение"
+            },
+  
+            "text2":{
+                "en":"All your questions, options, suggestions",
+                "tr":"Tüm sorularınız, fikirleriniz ve önerileriniz",
+                "de":"Alle Ihre Fragen, Meinungen, Vorschläge",
+                "ru":"Все ваши вопросы, отзывы, предложения"
+            },
+  
+            "checkboxText":{
+                "en":"Ben robot değilim",
+                "tr":"Ben robot değilim",
+                "de":"Ben robot değilim",
+                "ru":"Ben robot değilim"
+            },
+                       "iconImage":{
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText": {
+                "en": "leafIcon",
+                "tr": "leafIcon",
+                "de": "leafIcon",
+                "ru": "leafIcon"
+              },
+              "width": 20,
+              "height": 20
+             },
+               "iconImage2":{
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText": {
+                "en": "leafIcon",
+                "tr": "leafIcon",
+                "de": "leafIcon",
+                "ru": "leafIcon"
+              },
+              "width": 20,
+              "height": 20
+  }
+        }
+             
+  }
+    ]
+  }

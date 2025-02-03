@@ -1,0 +1,448 @@
+{
+  _id: ...,
+  pageName: "roomsPage", // sayfa kimliği
+  translations: {
+    en: [
+      {
+        type: "MainBackground",
+        props: {
+          image: { ... },
+          header: "Feel every advantage of our rooms",
+          text: "...",
+          // vb. buton, link vs.
+        }
+      },
+      {
+        type: "SomeOtherComponent",
+        props: {
+          // ...
+        }
+      }
+    ],
+    tr: [
+      {
+        type: "MainBackground",
+        props: {
+          image: { ... },
+          header: "Odamızın her avantajını yaşayın",
+          text: "...",
+        }
+      },
+      // ...
+    ],
+    de: [ /* ... */ ],
+    ru: [ /* ... */ ]
+  }
+}
+
+
+
+-------------
+
+import React, { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+
+const EditComponent = () => {
+  const { pageName, componentIndex } = useParams();
+  // Dil de parametrede varsa mesela: /panel/pages/:pageName/:lang/components/:componentIndex
+  // const { pageName, lang, componentIndex } = useParams();
+  
+  const navigate = useNavigate();
+  const [componentData, setComponentData] = useState(null);
+  const [error, setError] = useState(null);
+  const [success, setSuccess] = useState(false);
+
+  // Arama inputları
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+
+  // ❶ Tek seferde veriyi çek
+  useEffect(() => {
+    const fetchComponentData = async () => {
+      try {
+        // Örneğin: GET /api/page/:pageName?lang=en
+        const response = await fetch(`/api/page/${pageName}?lang=en`);
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.message || "Failed to fetch component data");
+        }
+
+        // data.components[componentIndex] => bu component
+        setComponentData(data.components[componentIndex]);
+      } catch (err) {
+        setError(err.message);
+      }
+    };
+
+    fetchComponentData();
+  }, [pageName, componentIndex]);
+
+  // ❷ Kaydet butonu
+  const handleSave = async () => {
+    setError(null);
+    setSuccess(false);
+
+    try {
+      // PUT /api/page/:pageName/components/:componentIndex?lang=en
+      const response = await fetch(
+        `/api/page/${pageName}/components/${componentIndex}?lang=en`,
+        {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(componentData),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to save component data");
+      }
+
+      setSuccess(true);
+      navigate(`/panel/pages/${pageName}`);
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  // ❸ Basit “tekil” handle: mesela props.header = "..."
+  const handleInputChange = (field, newValue) => {
+    setComponentData((prev) => ({
+      ...prev,
+      props: {
+        ...prev.props,
+        [field]: newValue,
+      },
+    }));
+  };
+
+  // ❹ image gibi nested alanlar
+  const handleImageChange = (key, newValue) => {
+    // image.altText = newValue vs.
+    setComponentData((prev) => ({
+      ...prev,
+      props: {
+        ...prev.props,
+        image: {
+          ...prev.props.image,
+          [key]: newValue, // altText, firebaseUrl vs.
+        },
+      },
+    }));
+  };
+
+  // ❺ Örnek arama fonksiyonu
+  const handleSearch = async () => {
+    if (!searchQuery) return;
+    try {
+      const res = await fetch(`/api/images/search?name=${searchQuery}&lang=en`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.message || "Image not found");
+
+      setSearchResults(data); // Bir dizi: [...]
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  if (error) return <p>Error: {error}</p>;
+  if (!componentData) return <p>Loading...</p>;
+
+  // ❻ Render
+  return (
+    <div className="flex flex-col p-4 bg-white text-black">
+      <h1>Edit Component: {componentData.type}</h1>
+
+      {/* Örnek: Sadece "header" ve "text" string alanları */}
+      <div className="mt-4">
+        <label>Header</label>
+        <input
+          type="text"
+          value={componentData.props.header || ""}
+          onChange={(e) => handleInputChange("header", e.target.value)}
+          className="border p-1"
+        />
+
+        <label>Text</label>
+        <textarea
+          value={componentData.props.text || ""}
+          onChange={(e) => handleInputChange("text", e.target.value)}
+          className="border p-1"
+        />
+      </div>
+
+      {/* Image */}
+      {componentData.props.image && (
+        <div className="mt-4 border p-2">
+          <h3>Single Image</h3>
+          <label>Firebase URL</label>
+          <input
+            type="text"
+            value={componentData.props.image.firebaseUrl || ""}
+            onChange={(e) => handleImageChange("firebaseUrl", e.target.value)}
+            className="border p-1"
+          />
+
+          <label>Alt Text</label>
+          <input
+            type="text"
+            value={componentData.props.image.altText || ""}
+            onChange={(e) => handleImageChange("altText", e.target.value)}
+            className="border p-1"
+          />
+
+          {/* Basit Search */}
+          <div className="mt-2">
+            <input
+              type="text"
+              placeholder="Enter image name..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="border p-1"
+            />
+            <button onClick={handleSearch} className="bg-blue-500 text-white px-2">
+              Search
+            </button>
+
+            {searchResults.length > 0 && (
+              <div className="border mt-2 p-2">
+                <h4>Results:</h4>
+                {searchResults.map((img, idx) => (
+                  <div
+                    key={idx}
+                    onClick={() => {
+                      // Tıklayınca image'a aktarma
+                      handleImageChange("firebaseUrl", img.firebaseUrl);
+                      handleImageChange("altText", img.altText);
+                    }}
+                    className="flex gap-2 cursor-pointer border p-1 my-1"
+                  >
+                    <img
+                      src={img.firebaseUrl}
+                      alt={img.altText}
+                      className="w-12 h-12 object-cover"
+                    />
+                    <p>{img.altText}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      <button onClick={handleSave} className="bg-green-600 text-white px-3 py-1 mt-4">
+        Save
+      </button>
+      {success && <p className="text-green-600">Saved successfully!</p>}
+    </div>
+  );
+};
+
+export default EditComponent;
+
+----
+
+import React, { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+
+const EditComponent = () => {
+  const { pageName, componentIndex } = useParams();
+  // Dil de parametrede varsa mesela: /panel/pages/:pageName/:lang/components/:componentIndex
+  // const { pageName, lang, componentIndex } = useParams();
+  
+  const navigate = useNavigate();
+  const [componentData, setComponentData] = useState(null);
+  const [error, setError] = useState(null);
+  const [success, setSuccess] = useState(false);
+
+  // Arama inputları
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+
+  // ❶ Tek seferde veriyi çek
+  useEffect(() => {
+    const fetchComponentData = async () => {
+      try {
+        // Örneğin: GET /api/page/:pageName?lang=en
+        const response = await fetch(`/api/page/${pageName}?lang=en`);
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.message || "Failed to fetch component data");
+        }
+
+        // data.components[componentIndex] => bu component
+        setComponentData(data.components[componentIndex]);
+      } catch (err) {
+        setError(err.message);
+      }
+    };
+
+    fetchComponentData();
+  }, [pageName, componentIndex]);
+
+  // ❷ Kaydet butonu
+  const handleSave = async () => {
+    setError(null);
+    setSuccess(false);
+
+    try {
+      // PUT /api/page/:pageName/components/:componentIndex?lang=en
+      const response = await fetch(
+        `/api/page/${pageName}/components/${componentIndex}?lang=en`,
+        {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(componentData),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to save component data");
+      }
+
+      setSuccess(true);
+      navigate(`/panel/pages/${pageName}`);
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  // ❸ Basit “tekil” handle: mesela props.header = "..."
+  const handleInputChange = (field, newValue) => {
+    setComponentData((prev) => ({
+      ...prev,
+      props: {
+        ...prev.props,
+        [field]: newValue,
+      },
+    }));
+  };
+
+  // ❹ image gibi nested alanlar
+  const handleImageChange = (key, newValue) => {
+    // image.altText = newValue vs.
+    setComponentData((prev) => ({
+      ...prev,
+      props: {
+        ...prev.props,
+        image: {
+          ...prev.props.image,
+          [key]: newValue, // altText, firebaseUrl vs.
+        },
+      },
+    }));
+  };
+
+  // ❺ Örnek arama fonksiyonu
+  const handleSearch = async () => {
+    if (!searchQuery) return;
+    try {
+      const res = await fetch(`/api/images/search?name=${searchQuery}&lang=en`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.message || "Image not found");
+
+      setSearchResults(data); // Bir dizi: [...]
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  if (error) return <p>Error: {error}</p>;
+  if (!componentData) return <p>Loading...</p>;
+
+  // ❻ Render
+  return (
+    <div className="flex flex-col p-4 bg-white text-black">
+      <h1>Edit Component: {componentData.type}</h1>
+
+      {/* Örnek: Sadece "header" ve "text" string alanları */}
+      <div className="mt-4">
+        <label>Header</label>
+        <input
+          type="text"
+          value={componentData.props.header || ""}
+          onChange={(e) => handleInputChange("header", e.target.value)}
+          className="border p-1"
+        />
+
+        <label>Text</label>
+        <textarea
+          value={componentData.props.text || ""}
+          onChange={(e) => handleInputChange("text", e.target.value)}
+          className="border p-1"
+        />
+      </div>
+
+      {/* Image */}
+      {componentData.props.image && (
+        <div className="mt-4 border p-2">
+          <h3>Single Image</h3>
+          <label>Firebase URL</label>
+          <input
+            type="text"
+            value={componentData.props.image.firebaseUrl || ""}
+            onChange={(e) => handleImageChange("firebaseUrl", e.target.value)}
+            className="border p-1"
+          />
+
+          <label>Alt Text</label>
+          <input
+            type="text"
+            value={componentData.props.image.altText || ""}
+            onChange={(e) => handleImageChange("altText", e.target.value)}
+            className="border p-1"
+          />
+
+          {/* Basit Search */}
+          <div className="mt-2">
+            <input
+              type="text"
+              placeholder="Enter image name..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="border p-1"
+            />
+            <button onClick={handleSearch} className="bg-blue-500 text-white px-2">
+              Search
+            </button>
+
+            {searchResults.length > 0 && (
+              <div className="border mt-2 p-2">
+                <h4>Results:</h4>
+                {searchResults.map((img, idx) => (
+                  <div
+                    key={idx}
+                    onClick={() => {
+                      // Tıklayınca image'a aktarma
+                      handleImageChange("firebaseUrl", img.firebaseUrl);
+                      handleImageChange("altText", img.altText);
+                    }}
+                    className="flex gap-2 cursor-pointer border p-1 my-1"
+                  >
+                    <img
+                      src={img.firebaseUrl}
+                      alt={img.altText}
+                      className="w-12 h-12 object-cover"
+                    />
+                    <p>{img.altText}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      <button onClick={handleSave} className="bg-green-600 text-white px-3 py-1 mt-4">
+        Save
+      </button>
+      {success && <p className="text-green-600">Saved successfully!</p>}
+    </div>
+  );
+};
+
+export default EditComponent;
+-------
+aratma:(Object.keys(...).map(lang => ...)) 

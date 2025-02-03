@@ -1,0 +1,397 @@
+{
+  "pageName": "standardlandview",
+  "components": [
+    {
+      "type": "MainBackground",
+      "props": {
+        "image": 
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": {
+              "en": "Port Nature Hotel",
+              "tr": "Port Nature Otel",
+              "de": "Port Nature Hotel",
+              "ru": "Порт Натуре Отель"
+            },
+            "width": 1920,
+            "height": 1079
+          },
+          "header":{
+              "en":"STANDARD ROOM . SEA VİEW",
+              "tr":"STANDARD ROOM . SEA VİEW",
+              "de":"STANDARD ROOM . SEA VİEW",
+              "ru":"STANDARD ROOM . SEA VİEW"
+          }
+      }
+    },
+
+     {
+      "type": "SubroomInfoSection",
+      "props": {
+
+        "text":{
+            "en": "If you crave the beauty and tranquility of nature, our land view rooms are perfect for you.",
+              "tr":  "If you crave the beauty and tranquility of nature, our land view rooms are perfect for you.",
+              "de": "If you crave the beauty and tranquility of nature, our land view rooms are perfect for you.",
+              "ru": "If you crave the beauty and tranquility of nature, our land view rooms are perfect for you."
+        },
+
+        "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": {
+          "en": "2 Adult + 2 Children / 3 Adults",
+          "tr": "2 Adult + 2 Children / 3 Adults",
+          "de": "2 Adult + 2 Children / 3 Adults",
+          "ru": "2 Adult + 2 Children / 3 Adults"
+        },
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text": {
+          "en": "1 Single Beds",
+          "tr": "1 Single Beds",
+          "de": "1 Single Beds",
+          "ru": "1 Single Beds"
+        },
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text": {
+          "en": "1 Double Bed",
+          "tr": "1 Double Bed",
+          "de": "1 Double Bed",
+          "ru": "1 Double Bed"
+        },
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "34 m2",
+          "tr": "34 m2",
+          "de": "34 m2",
+          "ru": "34 m2"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Land View",
+          "tr": "Land View",
+          "de": "Land View",
+          "ru": "Land View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      }
+    ],
+
+     "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": {
+              "en": "Port Nature Hotel",
+              "tr": "Port Nature Otel",
+              "de": "Port Nature Hotel",
+              "ru": "Порт Натуре Отель"
+            },
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": {
+              "en": "Beach View",
+              "tr": "Plaj Manzarası",
+              "de": "Strandblick",
+              "ru": "Вид на пляж"
+            },
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": {
+              "en": "Beach View",
+              "tr": "Plaj Manzarası",
+              "de": "Strandblick",
+              "ru": "Вид на пляж"
+            },
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": {
+              "en": "Beach View",
+              "tr": "Plaj Manzarası",
+              "de": "Strandblick",
+              "ru": "Вид на пляж"
+            },
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": {
+              "en": "Beach View",
+              "tr": "Plaj Manzarası",
+              "de": "Strandblick",
+              "ru": "Вид на пляж"
+            },
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+
+        "header":{
+            "en": "Beyond the Luxury Services",
+              "tr":"Beyond the Luxury Services",
+              "de": "Beyond the Luxury Services",
+              "ru": "Beyond the Luxury Services"
+        },
+
+         "text2":{
+            "en": "Green and sea blue intertwine your room’s wide-range windows. The most peaceful morning awaits you Port Nature.",
+            "tr": "Green and sea blue intertwine your room’s wide-range windows. The most peaceful morning awaits you Port Nature.",
+            "de": "Green and sea blue intertwine your room’s wide-range windows. The most peaceful morning awaits you Port Nature.",
+            "ru": "Green and sea blue intertwine your room’s wide-range windows. The most peaceful morning awaits you Port Nature."
+        },
+
+        "span":{
+            "en": "Nature open sea doors for you",
+            "tr": "Nature open sea doors for you",
+            "de": "Nature open sea doors for you",
+            "ru": "Nature open sea doors for you"
+        }
+
+      }
+},
+
+{
+      "type": "RoomsFeatures",
+      "props": {
+          "header":{
+            "en": "Features",
+            "tr": "Features",
+            "de": "Features",
+            "ru": "Features"
+          },
+
+        "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        },
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text": {
+          "en": "2",
+          "tr": "2",
+          "de": "2",
+          "ru": "2"
+        },
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text": {
+          "en": "34 m2",
+          "tr": "34 m2",
+          "de": "34 m2",
+          "ru": "34 m2"
+        },
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      }
+    ],
+    "buttonText": {
+          "en": "Show More",
+          "tr": "Show More",
+          "de": "Show More",
+          "ru": "Show More"
+        },
+     "buttonText2": {
+          "en": "Show Less",
+          "tr": "Show Less",
+          "de": "Show Less",
+          "ru": "Show Less"
+        }
+      }
+},
+{
+      "type": "RoomPlan",
+      "props": {
+          "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734696757046familyroomPlan.png?alt=media&token=a0f35d05-7d6a-4a28-8447-d6c26130c04c",
+              "altText":{
+                  "en": "standardseaviewPlan",
+                  "tr": "standardseaviewPlan",
+                  "de": "standardseaviewPlan",
+                  "ru": "standardseaviewPlan"
+              },
+              "width":"943",
+              "height":"400"
+              
+          },
+
+          "header":{
+                  "en": "Land View",
+                  "tr": "Land View",
+                  "de":"Land View",
+                  "ru":"Land View"
+              },
+
+              "text":{
+                  "en": "2 Adults + 2 Children / 3 Adults · 1 Single Bed · 1 Double Bed",
+                  "tr":"2 Adults + 2 Children / 3 Adults · 1 Single Bed · 1 Double Bed",
+                  "de": "2 Adults + 2 Children / 3 Adults · 1 Single Bed · 1 Double Bed",
+                  "ru": "2 Adults + 2 Children / 3 Adults · 1 Single Bed · 1 Double Bed"
+              },
+              "text2":{
+                  "en": "34 m² · Sea View",
+                  "tr": "34 m² · Sea View",
+                  "de": "34 m² · Sea View",
+                  "ru": "34 m² · Sea View"
+              }
+      }
+}
+
+  ]
+}

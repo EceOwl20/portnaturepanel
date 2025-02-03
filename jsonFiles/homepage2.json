@@ -1,0 +1,2447 @@
+{
+  "pageName": "homepage",
+   "translations": {
+    "en": [
+             {
+      "type": "Carousel",
+      "props": {
+        "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header": "WELCOME TO",
+        "autoplay": true,
+        "delay": 3000
+      }
+    },
+
+    {
+  "type": "BarLoungeCarousel",
+  "props": {
+    "images": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337070087IrishPub.png?alt=media&token=cb8df3fd-b092-40de-80ee-22b4e74e1d31",
+        "altText": "Main Image 1",
+
+        "width": 1920,
+        "height": 1079,
+        "header": "Premium Bar & Lounge",
+        "text": "Premium service feels premium. Port Nature Luxury Resort Hotel & Spa is always here for this feeling.",
+        "link":  "/bars-cafes"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337262930TurkishBath2.png?alt=media&token=15f786a9-2b39-40ac-ab03-86867138184c",
+        "altText": "Main Image 2",
+        "width": 1920,
+        "height": 1079,
+        "header": "Magic Spa",
+
+        "text": "Get spoiled on a blissful escape at our luxurious spa with skilled therapists.",
+        "link": "/spa-center"
+      },
+
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337112435IrishPub2.png?alt=media&token=8e7037ae-b3cd-4a06-8b44-7ad906dc0f42",
+        "altText": "Main Image 3",
+        "width": 1920,
+        "height": 1079,
+        "header": "Meetings and Congress",
+        "text": "We are not only fun but also appeal to the business person.",
+        "link": "/meeting-congress"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734336759289davidoff.png?alt=media&token=0ec4fc9d-e932-4067-a491-7b1780355e27",
+        "altText": "Main Image 4",
+        "width": 1920,
+        "height": 1079,
+        "header": "Davidoff Cafe",
+        "text":  "No reservation required. Discover precious coffee varieties worth discovering.",
+        "link":"/davidoff-cafe"
+      }
+    ],
+    "subImages": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337215845chivas.png?alt=media&token=1b16e8d8-3135-4f0b-bfe5-a9c354e6e8c5",
+        "altText": "Sub Image 1",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337301800TurkishBath3.png?alt=media&token=8ec88e07-2d65-4364-804d-6b0ac17b80ed",
+        "altText": "Sub Image 2",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337182937meeting-restaurant.png?alt=media&token=238deb00-61ee-467e-92fe-2ad2db93bfb2",
+        "altText": "Sub Image 3",
+        "width": 600,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337010410davidoff2.png?alt=media&token=703903df-ad45-4b0b-aed0-0b9c7a4afa2f",
+        "altText": "Sub Image 4",
+        "width": 608,
+        "height": 352
+      }
+    ],
+    "linkText": "More About"
+  }
+},
+
+
+{
+  "type": "HomeIconSection",
+  "props": {
+    "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": "BELEK . ANTALYA",
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text":  "AQUAPARK",
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text":"CONCERT",
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": "BEACH",
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+        "text":"ENTERTAINMENT",
+        "largeWidth": 34.8,
+        "largeHeight": 47.54,
+        "smallWidth": 28,
+        "smallHeight": 38
+      }
+    ]
+  }
+},
+
+{
+  "type": "AllInclusive",
+  "props": {
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          },{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header":"Port Nature Luxury Resort Hotel & Spa",
+
+    "span":"Experience Luxury Beyond",
+    "text1":"148 kinds of premium alcohol pushes the limits of all-inclusive services. You can find almost all premium alcohol brands at our bars.",
+    "text2":"Also, you can sip your Davidoff coffee while watching the most famous artists' concerts, or when you relax with your family.",
+    "starNum":"5",
+
+    "carouselHeader":"Premium A'la Carte All Inclusive",
+    
+    "carouselText":" Our 5-star premium luxury hotel has restaurants on-site, each serving a variety of delicious foods made by renowned chefs. There are exclusive concepts for families with children. Swimming pools, saunas, health clubs, and even live ",
+
+    "carouselSpan":"Because you deserve it!"
+  }
+},
+
+
+{
+  "type": "HolidayImageSection",
+  "props": {
+      "image":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504490581portnaturenight.png?alt=media&token=e76671e0-ce72-4c42-b65e-01fb51a861bc",
+          "altText":"night",
+        
+          "width": 1920,
+          "height": 1080
+          },
+          "image2":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504457779theatre.png?alt=media&token=513dde25-e339-4b4e-8ae7-3cdd65027267",
+          "altText":"theatre",
+          "width": 1920,
+          "height": 1080
+          },
+          "buttonImage":{
+               "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504386061Youtube.png?alt=media&token=6b70995e-d887-479b-9721-836512ff793e",
+          "altText":"youtube",
+          "width": 32,
+          "height": 22
+          },
+          "buttonText":"Watch Now",
+
+          "header":"How will you spend your holiday?",
+          "text":"Are the comments true and what about the evaluations?  What if it is not like the hotel they have shown us?",
+          "span":"Learn your holiday"
+          
+  }
+  },
+
+
+  {
+  "type": "ChildrenSection",
+  "props": {
+          "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432156291videoIcon.png?alt=media&token=786193e6-771c-41d6-9b39-aa7a42498c20",
+        "text": "You can watch what your child is doing on TV in your rooms",
+        "largeWidth": 40,
+        "largeHeight": 38,
+        "smallWidth": 40,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432115060ageIcon.png?alt=media&token=848ec7cf-84e9-4382-8310-a36c47a79481",
+        "text": "Activities for children of any age",
+        "largeWidth": 34,
+        "largeHeight": 36,
+        "smallWidth": 40,
+        "smallHeight": 41
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432078970miniclubIcon.png?alt=media&token=f3bc8ddc-bcff-49d9-a50c-3529ce961728",
+        "text": "Your child chooses their desired food from our child exclusive menu",
+        "largeWidth": 38.91,
+        "largeHeight": 30.63,
+        "smallWidth": 40,
+        "smallHeight": 32
+      }
+    ],
+
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524321680child1.png?alt=media&token=c6b221df-c62f-4abf-a95e-95330b2ca166",
+            "altText": "child",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524349331child2.png?alt=media&token=7007dfa1-37a1-4df6-b70e-e9d364dacc45",
+            "altText":  "child2",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524374168child3.png?alt=media&token=c89d7810-0c6b-4c99-be2f-4d3b03275286",
+            "altText": "child3",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524402965child4.png?alt=media&token=aa5f0a87-1986-4163-a52a-98ddfd6d9f8e",
+            "altText": "child4",
+            "width": 556,
+            "height": 322
+          }
+        ],
+
+          "buttonText":"More",
+          "header":"CHILDREN"
+  }
+  },
+
+
+
+  {
+      "type": "ImageBackgroundSection",
+      "props": {
+          "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734528203926beach.png?alt=media&token=aa3e717e-8cf2-4feb-87b2-bc507c3d542a",
+              "altText":"portnaturebeach"
+          },
+              "text":"We created an unbelievable beach experience with Belek’s unique natural beauty for adults and children.",
+              "buttonText":"More About",
+              "buttonLink":"/activities"        
+  }
+  },
+
+  {
+      "type": "AlacarteSection",
+      "props": {
+          "header":"Of Our Premium A’La Carte Restaurants",
+          "span":"The best cuisines of different countries!",
+
+           "textComponent":[
+              {
+                  "header":"Top Quality",
+              "text":"Carefully selected ingredients for gourmet cuisine.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"Unlimited",
+              "text":"You will feel the luxury with 148 kinds of blue-ribbon drinks.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"FREE within working hours",
+              "text":"You enter at your convenience",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        }
+],
+
+         "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593017097alacarteBackground.png?alt=media&token=d51e9ccf-dacd-4dfb-8c04-1beaf74e8c6f",
+              "altText":"alacarteBackground",
+              "width":"1920",
+              "height":"475"
+          },
+           "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"FAR  EAST A’LA CARTE ",
+            "text1":"At any working time",
+            "text2":"Booking is not required",
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon ",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "Beach View",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText":"leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText":"alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          }
+          
+        ]
+          
+  }
+  },
+  {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+},
+    {
+    "type": "AccommodationSection",
+    "props": {
+        "header":"ACCOMMODATION",
+        "text":"Experience the most relaxing holiday in the plush comfort of soothing rooms inspired by the nature.",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"FAMILY ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"King ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Standard ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+{
+    "type": "SpecialOffersSection",
+    "props": {
+        "header":"Special Offers",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"Become a VIP customer",
+            "text":"By booking a trip on our website",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Mixology Expert",
+            "text":"Presentation specal for you",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Wedding gift",
+            "text":"Spend time together",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+{
+    "type": "InstagramSection",
+    "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546449416-newinsta.png?alt=media&token=3bfa45c6-c0f9-4dab-aeee-dba7afdb9dbc",
+            "width": 379,
+            "height": 408
+          },
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "altText": "Beach View",
+            "width": 270,
+            "height": 270
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          }
+        ]
+       
+    }
+         
+}
+    ],
+    "tr": [
+             {
+      "type": "Carousel",
+      "props": {
+        "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header": "WELCOME TO",
+        "autoplay": true,
+        "delay": 3000
+      }
+    },
+
+    {
+  "type": "BarLoungeCarousel",
+  "props": {
+    "images": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337070087IrishPub.png?alt=media&token=cb8df3fd-b092-40de-80ee-22b4e74e1d31",
+        "altText": "Main Image 1",
+
+        "width": 1920,
+        "height": 1079,
+        "header": "Premium Bar & Lounge",
+        "text": "Premium service feels premium. Port Nature Luxury Resort Hotel & Spa is always here for this feeling.",
+        "link":  "/bars-cafes"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337262930TurkishBath2.png?alt=media&token=15f786a9-2b39-40ac-ab03-86867138184c",
+        "altText": "Main Image 2",
+        "width": 1920,
+        "height": 1079,
+        "header": "Magic Spa",
+
+        "text": "Get spoiled on a blissful escape at our luxurious spa with skilled therapists.",
+        "link": "/spa-center"
+      },
+
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337112435IrishPub2.png?alt=media&token=8e7037ae-b3cd-4a06-8b44-7ad906dc0f42",
+        "altText": "Main Image 3",
+        "width": 1920,
+        "height": 1079,
+        "header": "Meetings and Congress",
+        "text": "We are not only fun but also appeal to the business person.",
+        "link": "/meeting-congress"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734336759289davidoff.png?alt=media&token=0ec4fc9d-e932-4067-a491-7b1780355e27",
+        "altText": "Main Image 4",
+        "width": 1920,
+        "height": 1079,
+        "header": "Davidoff Cafe",
+        "text":  "No reservation required. Discover precious coffee varieties worth discovering.",
+        "link":"/davidoff-cafe"
+      }
+    ],
+    "subImages": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337215845chivas.png?alt=media&token=1b16e8d8-3135-4f0b-bfe5-a9c354e6e8c5",
+        "altText": "Sub Image 1",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337301800TurkishBath3.png?alt=media&token=8ec88e07-2d65-4364-804d-6b0ac17b80ed",
+        "altText": "Sub Image 2",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337182937meeting-restaurant.png?alt=media&token=238deb00-61ee-467e-92fe-2ad2db93bfb2",
+        "altText": "Sub Image 3",
+        "width": 600,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337010410davidoff2.png?alt=media&token=703903df-ad45-4b0b-aed0-0b9c7a4afa2f",
+        "altText": "Sub Image 4",
+        "width": 608,
+        "height": 352
+      }
+    ],
+    "linkText": "More About"
+  }
+},
+
+
+{
+  "type": "HomeIconSection",
+  "props": {
+    "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": "BELEK . ANTALYA",
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text":  "AQUAPARK",
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text":"CONCERT",
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": "BEACH",
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+        "text":"ENTERTAINMENT",
+        "largeWidth": 34.8,
+        "largeHeight": 47.54,
+        "smallWidth": 28,
+        "smallHeight": 38
+      }
+    ]
+  }
+},
+
+{
+  "type": "AllInclusive",
+  "props": {
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          },{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header":"Port Nature Luxury Resort Hotel & Spa",
+
+    "span":"Experience Luxury Beyond",
+    "text1":"148 kinds of premium alcohol pushes the limits of all-inclusive services. You can find almost all premium alcohol brands at our bars.",
+    "text2":"Also, you can sip your Davidoff coffee while watching the most famous artists' concerts, or when you relax with your family.",
+    "starNum":"5",
+
+    "carouselHeader":"Premium A'la Carte All Inclusive",
+    
+    "carouselText":" Our 5-star premium luxury hotel has restaurants on-site, each serving a variety of delicious foods made by renowned chefs. There are exclusive concepts for families with children. Swimming pools, saunas, health clubs, and even live ",
+
+    "carouselSpan":"Because you deserve it!"
+  }
+},
+
+
+{
+  "type": "HolidayImageSection",
+  "props": {
+      "image":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504490581portnaturenight.png?alt=media&token=e76671e0-ce72-4c42-b65e-01fb51a861bc",
+          "altText":"night",
+        
+          "width": 1920,
+          "height": 1080
+          },
+          "image2":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504457779theatre.png?alt=media&token=513dde25-e339-4b4e-8ae7-3cdd65027267",
+          "altText":"theatre",
+          "width": 1920,
+          "height": 1080
+          },
+          "buttonImage":{
+               "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504386061Youtube.png?alt=media&token=6b70995e-d887-479b-9721-836512ff793e",
+          "altText":"youtube",
+          "width": 32,
+          "height": 22
+          },
+          "buttonText":"Watch Now",
+
+          "header":"How will you spend your holiday?",
+          "text":"Are the comments true and what about the evaluations?  What if it is not like the hotel they have shown us?",
+          "span":"Learn your holiday"
+          
+  }
+  },
+
+
+  {
+  "type": "ChildrenSection",
+  "props": {
+          "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432156291videoIcon.png?alt=media&token=786193e6-771c-41d6-9b39-aa7a42498c20",
+        "text": "You can watch what your child is doing on TV in your rooms",
+        "largeWidth": 40,
+        "largeHeight": 38,
+        "smallWidth": 40,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432115060ageIcon.png?alt=media&token=848ec7cf-84e9-4382-8310-a36c47a79481",
+        "text": "Activities for children of any age",
+        "largeWidth": 34,
+        "largeHeight": 36,
+        "smallWidth": 40,
+        "smallHeight": 41
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432078970miniclubIcon.png?alt=media&token=f3bc8ddc-bcff-49d9-a50c-3529ce961728",
+        "text": "Your child chooses their desired food from our child exclusive menu",
+        "largeWidth": 38.91,
+        "largeHeight": 30.63,
+        "smallWidth": 40,
+        "smallHeight": 32
+      }
+    ],
+
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524321680child1.png?alt=media&token=c6b221df-c62f-4abf-a95e-95330b2ca166",
+            "altText": "child",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524349331child2.png?alt=media&token=7007dfa1-37a1-4df6-b70e-e9d364dacc45",
+            "altText":  "child2",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524374168child3.png?alt=media&token=c89d7810-0c6b-4c99-be2f-4d3b03275286",
+            "altText": "child3",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524402965child4.png?alt=media&token=aa5f0a87-1986-4163-a52a-98ddfd6d9f8e",
+            "altText": "child4",
+            "width": 556,
+            "height": 322
+          }
+        ],
+
+          "buttonText":"More",
+          "header":"CHILDREN"
+  }
+  },
+
+
+
+  {
+      "type": "ImageBackgroundSection",
+      "props": {
+          "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734528203926beach.png?alt=media&token=aa3e717e-8cf2-4feb-87b2-bc507c3d542a",
+              "altText":"portnaturebeach"
+          },
+              "text":"We created an unbelievable beach experience with Belek’s unique natural beauty for adults and children.",
+              "buttonText":"More About",
+              "buttonLink":"/activities"        
+  }
+  },
+
+  {
+      "type": "AlacarteSection",
+      "props": {
+          "header":"Of Our Premium A’La Carte Restaurants",
+          "span":"The best cuisines of different countries!",
+
+           "textComponent":[
+              {
+                  "header":"Top Quality",
+              "text":"Carefully selected ingredients for gourmet cuisine.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"Unlimited",
+              "text":"You will feel the luxury with 148 kinds of blue-ribbon drinks.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"FREE within working hours",
+              "text":"You enter at your convenience",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        }
+],
+
+         "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593017097alacarteBackground.png?alt=media&token=d51e9ccf-dacd-4dfb-8c04-1beaf74e8c6f",
+              "altText":"alacarteBackground",
+              "width":"1920",
+              "height":"475"
+          },
+           "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"FAR  EAST A’LA CARTE ",
+            "text1":"At any working time",
+            "text2":"Booking is not required",
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon ",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "Beach View",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText":"leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText":"alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          }
+          
+        ]
+          
+  }
+  },
+  {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+},
+{
+    "type": "AccommodationSection",
+    "props": {
+        "header":"ACCOMMODATION",
+        "text":"Experience the most relaxing holiday in the plush comfort of soothing rooms inspired by the nature.",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"FAMILY ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"King ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Standard ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+  {
+    "type": "SpecialOffersSection",
+    "props": {
+        "header":"Special Offers",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"Become a VIP customer",
+            "text":"By booking a trip on our website",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Mixology Expert",
+            "text":"Presentation specal for you",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Wedding gift",
+            "text":"Spend time together",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+{
+    "type": "InstagramSection",
+    "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546449416-newinsta.png?alt=media&token=3bfa45c6-c0f9-4dab-aeee-dba7afdb9dbc",
+            "width": 379,
+            "height": 408
+          },
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "altText": "Beach View",
+            "width": 270,
+            "height": 270
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          }
+        ]
+       
+    }
+         
+}
+    ],
+    "de":[
+             {
+      "type": "Carousel",
+      "props": {
+        "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header": "WELCOME TO",
+        "autoplay": true,
+        "delay": 3000
+      }
+    },
+
+    {
+  "type": "BarLoungeCarousel",
+  "props": {
+    "images": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337070087IrishPub.png?alt=media&token=cb8df3fd-b092-40de-80ee-22b4e74e1d31",
+        "altText": "Main Image 1",
+
+        "width": 1920,
+        "height": 1079,
+        "header": "Premium Bar & Lounge",
+        "text": "Premium service feels premium. Port Nature Luxury Resort Hotel & Spa is always here for this feeling.",
+        "link":  "/bars-cafes"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337262930TurkishBath2.png?alt=media&token=15f786a9-2b39-40ac-ab03-86867138184c",
+        "altText": "Main Image 2",
+        "width": 1920,
+        "height": 1079,
+        "header": "Magic Spa",
+
+        "text": "Get spoiled on a blissful escape at our luxurious spa with skilled therapists.",
+        "link": "/spa-center"
+      },
+
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337112435IrishPub2.png?alt=media&token=8e7037ae-b3cd-4a06-8b44-7ad906dc0f42",
+        "altText": "Main Image 3",
+        "width": 1920,
+        "height": 1079,
+        "header": "Meetings and Congress",
+        "text": "We are not only fun but also appeal to the business person.",
+        "link": "/meeting-congress"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734336759289davidoff.png?alt=media&token=0ec4fc9d-e932-4067-a491-7b1780355e27",
+        "altText": "Main Image 4",
+        "width": 1920,
+        "height": 1079,
+        "header": "Davidoff Cafe",
+        "text":  "No reservation required. Discover precious coffee varieties worth discovering.",
+        "link":"/davidoff-cafe"
+      }
+    ],
+    "subImages": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337215845chivas.png?alt=media&token=1b16e8d8-3135-4f0b-bfe5-a9c354e6e8c5",
+        "altText": "Sub Image 1",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337301800TurkishBath3.png?alt=media&token=8ec88e07-2d65-4364-804d-6b0ac17b80ed",
+        "altText": "Sub Image 2",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337182937meeting-restaurant.png?alt=media&token=238deb00-61ee-467e-92fe-2ad2db93bfb2",
+        "altText": "Sub Image 3",
+        "width": 600,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337010410davidoff2.png?alt=media&token=703903df-ad45-4b0b-aed0-0b9c7a4afa2f",
+        "altText": "Sub Image 4",
+        "width": 608,
+        "height": 352
+      }
+    ],
+    "linkText": "More About"
+  }
+},
+
+
+{
+  "type": "HomeIconSection",
+  "props": {
+    "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": "BELEK . ANTALYA",
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text":  "AQUAPARK",
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text":"CONCERT",
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": "BEACH",
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+        "text":"ENTERTAINMENT",
+        "largeWidth": 34.8,
+        "largeHeight": 47.54,
+        "smallWidth": 28,
+        "smallHeight": 38
+      }
+    ]
+  }
+},
+
+{
+  "type": "AllInclusive",
+  "props": {
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          },{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header":"Port Nature Luxury Resort Hotel & Spa",
+
+    "span":"Experience Luxury Beyond",
+    "text1":"148 kinds of premium alcohol pushes the limits of all-inclusive services. You can find almost all premium alcohol brands at our bars.",
+    "text2":"Also, you can sip your Davidoff coffee while watching the most famous artists' concerts, or when you relax with your family.",
+    "starNum":"5",
+
+    "carouselHeader":"Premium A'la Carte All Inclusive",
+    
+    "carouselText":" Our 5-star premium luxury hotel has restaurants on-site, each serving a variety of delicious foods made by renowned chefs. There are exclusive concepts for families with children. Swimming pools, saunas, health clubs, and even live ",
+
+    "carouselSpan":"Because you deserve it!"
+  }
+},
+
+
+{
+  "type": "HolidayImageSection",
+  "props": {
+      "image":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504490581portnaturenight.png?alt=media&token=e76671e0-ce72-4c42-b65e-01fb51a861bc",
+          "altText":"night",
+        
+          "width": 1920,
+          "height": 1080
+          },
+          "image2":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504457779theatre.png?alt=media&token=513dde25-e339-4b4e-8ae7-3cdd65027267",
+          "altText":"theatre",
+          "width": 1920,
+          "height": 1080
+          },
+          "buttonImage":{
+               "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504386061Youtube.png?alt=media&token=6b70995e-d887-479b-9721-836512ff793e",
+          "altText":"youtube",
+          "width": 32,
+          "height": 22
+          },
+          "buttonText":"Watch Now",
+
+          "header":"How will you spend your holiday?",
+          "text":"Are the comments true and what about the evaluations?  What if it is not like the hotel they have shown us?",
+          "span":"Learn your holiday"
+          
+  }
+  },
+
+
+  {
+  "type": "ChildrenSection",
+  "props": {
+          "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432156291videoIcon.png?alt=media&token=786193e6-771c-41d6-9b39-aa7a42498c20",
+        "text": "You can watch what your child is doing on TV in your rooms",
+        "largeWidth": 40,
+        "largeHeight": 38,
+        "smallWidth": 40,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432115060ageIcon.png?alt=media&token=848ec7cf-84e9-4382-8310-a36c47a79481",
+        "text": "Activities for children of any age",
+        "largeWidth": 34,
+        "largeHeight": 36,
+        "smallWidth": 40,
+        "smallHeight": 41
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432078970miniclubIcon.png?alt=media&token=f3bc8ddc-bcff-49d9-a50c-3529ce961728",
+        "text": "Your child chooses their desired food from our child exclusive menu",
+        "largeWidth": 38.91,
+        "largeHeight": 30.63,
+        "smallWidth": 40,
+        "smallHeight": 32
+      }
+    ],
+
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524321680child1.png?alt=media&token=c6b221df-c62f-4abf-a95e-95330b2ca166",
+            "altText": "child",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524349331child2.png?alt=media&token=7007dfa1-37a1-4df6-b70e-e9d364dacc45",
+            "altText":  "child2",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524374168child3.png?alt=media&token=c89d7810-0c6b-4c99-be2f-4d3b03275286",
+            "altText": "child3",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524402965child4.png?alt=media&token=aa5f0a87-1986-4163-a52a-98ddfd6d9f8e",
+            "altText": "child4",
+            "width": 556,
+            "height": 322
+          }
+        ],
+
+          "buttonText":"More",
+          "header":"CHILDREN"
+  }
+  },
+
+
+
+  {
+      "type": "ImageBackgroundSection",
+      "props": {
+          "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734528203926beach.png?alt=media&token=aa3e717e-8cf2-4feb-87b2-bc507c3d542a",
+              "altText":"portnaturebeach"
+          },
+              "text":"We created an unbelievable beach experience with Belek’s unique natural beauty for adults and children.",
+              "buttonText":"More About",
+              "buttonLink":"/activities"        
+  }
+  },
+
+  {
+      "type": "AlacarteSection",
+      "props": {
+          "header":"Of Our Premium A’La Carte Restaurants",
+          "span":"The best cuisines of different countries!",
+
+           "textComponent":[
+              {
+                  "header":"Top Quality",
+              "text":"Carefully selected ingredients for gourmet cuisine.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"Unlimited",
+              "text":"You will feel the luxury with 148 kinds of blue-ribbon drinks.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"FREE within working hours",
+              "text":"You enter at your convenience",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        }
+],
+
+         "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593017097alacarteBackground.png?alt=media&token=d51e9ccf-dacd-4dfb-8c04-1beaf74e8c6f",
+              "altText":"alacarteBackground",
+              "width":"1920",
+              "height":"475"
+          },
+           "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"FAR  EAST A’LA CARTE ",
+            "text1":"At any working time",
+            "text2":"Booking is not required",
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon ",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "Beach View",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText":"leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText":"alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          }
+          
+        ]
+          
+  }
+  },
+  {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+},
+{
+    "type": "AccommodationSection",
+    "props": {
+        "header":"ACCOMMODATION",
+        "text":"Experience the most relaxing holiday in the plush comfort of soothing rooms inspired by the nature.",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"FAMILY ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"King ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Standard ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+  {
+    "type": "SpecialOffersSection",
+    "props": {
+        "header":"Special Offers",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"Become a VIP customer",
+            "text":"By booking a trip on our website",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Mixology Expert",
+            "text":"Presentation specal for you",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Wedding gift",
+            "text":"Spend time together",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+{
+    "type": "InstagramSection",
+    "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546449416-newinsta.png?alt=media&token=3bfa45c6-c0f9-4dab-aeee-dba7afdb9dbc",
+            "width": 379,
+            "height": 408
+          },
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "altText": "Beach View",
+            "width": 270,
+            "height": 270
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          }
+        ]
+       
+    }
+         
+}
+    ],
+        "ru": [
+             {
+      "type": "Carousel",
+      "props": {
+        "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header": "WELCOME TO",
+        "autoplay": true,
+        "delay": 3000
+      }
+    },
+
+    {
+  "type": "BarLoungeCarousel",
+  "props": {
+    "images": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337070087IrishPub.png?alt=media&token=cb8df3fd-b092-40de-80ee-22b4e74e1d31",
+        "altText": "Main Image 1",
+
+        "width": 1920,
+        "height": 1079,
+        "header": "Premium Bar & Lounge",
+        "text": "Premium service feels premium. Port Nature Luxury Resort Hotel & Spa is always here for this feeling.",
+        "link":  "/bars-cafes"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337262930TurkishBath2.png?alt=media&token=15f786a9-2b39-40ac-ab03-86867138184c",
+        "altText": "Main Image 2",
+        "width": 1920,
+        "height": 1079,
+        "header": "Magic Spa",
+
+        "text": "Get spoiled on a blissful escape at our luxurious spa with skilled therapists.",
+        "link": "/spa-center"
+      },
+
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337112435IrishPub2.png?alt=media&token=8e7037ae-b3cd-4a06-8b44-7ad906dc0f42",
+        "altText": "Main Image 3",
+        "width": 1920,
+        "height": 1079,
+        "header": "Meetings and Congress",
+        "text": "We are not only fun but also appeal to the business person.",
+        "link": "/meeting-congress"
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734336759289davidoff.png?alt=media&token=0ec4fc9d-e932-4067-a491-7b1780355e27",
+        "altText": "Main Image 4",
+        "width": 1920,
+        "height": 1079,
+        "header": "Davidoff Cafe",
+        "text":  "No reservation required. Discover precious coffee varieties worth discovering.",
+        "link":"/davidoff-cafe"
+      }
+    ],
+    "subImages": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337215845chivas.png?alt=media&token=1b16e8d8-3135-4f0b-bfe5-a9c354e6e8c5",
+        "altText": "Sub Image 1",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337301800TurkishBath3.png?alt=media&token=8ec88e07-2d65-4364-804d-6b0ac17b80ed",
+        "altText": "Sub Image 2",
+        "width": 608,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337182937meeting-restaurant.png?alt=media&token=238deb00-61ee-467e-92fe-2ad2db93bfb2",
+        "altText": "Sub Image 3",
+        "width": 600,
+        "height": 352
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734337010410davidoff2.png?alt=media&token=703903df-ad45-4b0b-aed0-0b9c7a4afa2f",
+        "altText": "Sub Image 4",
+        "width": 608,
+        "height": 352
+      }
+    ],
+    "linkText": "More About"
+  }
+},
+
+
+{
+  "type": "HomeIconSection",
+  "props": {
+    "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": "BELEK . ANTALYA",
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text":  "AQUAPARK",
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text":"CONCERT",
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": "BEACH",
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+        "text":"ENTERTAINMENT",
+        "largeWidth": 34.8,
+        "largeHeight": 47.54,
+        "smallWidth": 28,
+        "smallHeight": 38
+      }
+    ]
+  }
+},
+
+{
+  "type": "AllInclusive",
+  "props": {
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": "Beach View",
+            "width": 1920,
+            "height": 1080
+          },{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "header":"Port Nature Luxury Resort Hotel & Spa",
+
+    "span":"Experience Luxury Beyond",
+    "text1":"148 kinds of premium alcohol pushes the limits of all-inclusive services. You can find almost all premium alcohol brands at our bars.",
+    "text2":"Also, you can sip your Davidoff coffee while watching the most famous artists' concerts, or when you relax with your family.",
+    "starNum":"5",
+
+    "carouselHeader":"Premium A'la Carte All Inclusive",
+    
+    "carouselText":" Our 5-star premium luxury hotel has restaurants on-site, each serving a variety of delicious foods made by renowned chefs. There are exclusive concepts for families with children. Swimming pools, saunas, health clubs, and even live ",
+
+    "carouselSpan":"Because you deserve it!"
+  }
+},
+
+
+{
+  "type": "HolidayImageSection",
+  "props": {
+      "image":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504490581portnaturenight.png?alt=media&token=e76671e0-ce72-4c42-b65e-01fb51a861bc",
+          "altText":"night",
+        
+          "width": 1920,
+          "height": 1080
+          },
+          "image2":{
+          "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504457779theatre.png?alt=media&token=513dde25-e339-4b4e-8ae7-3cdd65027267",
+          "altText":"theatre",
+          "width": 1920,
+          "height": 1080
+          },
+          "buttonImage":{
+               "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734504386061Youtube.png?alt=media&token=6b70995e-d887-479b-9721-836512ff793e",
+          "altText":"youtube",
+          "width": 32,
+          "height": 22
+          },
+          "buttonText":"Watch Now",
+
+          "header":"How will you spend your holiday?",
+          "text":"Are the comments true and what about the evaluations?  What if it is not like the hotel they have shown us?",
+          "span":"Learn your holiday"
+          
+  }
+  },
+
+
+  {
+  "type": "ChildrenSection",
+  "props": {
+          "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432156291videoIcon.png?alt=media&token=786193e6-771c-41d6-9b39-aa7a42498c20",
+        "text": "You can watch what your child is doing on TV in your rooms",
+        "largeWidth": 40,
+        "largeHeight": 38,
+        "smallWidth": 40,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432115060ageIcon.png?alt=media&token=848ec7cf-84e9-4382-8310-a36c47a79481",
+        "text": "Activities for children of any age",
+        "largeWidth": 34,
+        "largeHeight": 36,
+        "smallWidth": 40,
+        "smallHeight": 41
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734432078970miniclubIcon.png?alt=media&token=f3bc8ddc-bcff-49d9-a50c-3529ce961728",
+        "text": "Your child chooses their desired food from our child exclusive menu",
+        "largeWidth": 38.91,
+        "largeHeight": 30.63,
+        "smallWidth": 40,
+        "smallHeight": 32
+      }
+    ],
+
+    "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524321680child1.png?alt=media&token=c6b221df-c62f-4abf-a95e-95330b2ca166",
+            "altText": "child",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524349331child2.png?alt=media&token=7007dfa1-37a1-4df6-b70e-e9d364dacc45",
+            "altText":  "child2",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524374168child3.png?alt=media&token=c89d7810-0c6b-4c99-be2f-4d3b03275286",
+            "altText": "child3",
+            "width": 556,
+            "height": 322
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734524402965child4.png?alt=media&token=aa5f0a87-1986-4163-a52a-98ddfd6d9f8e",
+            "altText": "child4",
+            "width": 556,
+            "height": 322
+          }
+        ],
+
+          "buttonText":"More",
+          "header":"CHILDREN"
+  }
+  },
+
+
+
+  {
+      "type": "ImageBackgroundSection",
+      "props": {
+          "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734528203926beach.png?alt=media&token=aa3e717e-8cf2-4feb-87b2-bc507c3d542a",
+              "altText":"portnaturebeach"
+          },
+              "text":"We created an unbelievable beach experience with Belek’s unique natural beauty for adults and children.",
+              "buttonText":"More About",
+              "buttonLink":"/activities"        
+  }
+  },
+
+  {
+      "type": "AlacarteSection",
+      "props": {
+          "header":"Of Our Premium A’La Carte Restaurants",
+          "span":"The best cuisines of different countries!",
+
+           "textComponent":[
+              {
+                  "header":"Top Quality",
+              "text":"Carefully selected ingredients for gourmet cuisine.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"Unlimited",
+              "text":"You will feel the luxury with 148 kinds of blue-ribbon drinks.",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        },
+
+              {
+                  "header":"FREE within working hours",
+              "text":"You enter at your convenience",
+              "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+              "altText":"leafIcon"
+          }
+        }
+],
+
+         "image":{
+              "firebaseUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593017097alacarteBackground.png?alt=media&token=d51e9ccf-dacd-4dfb-8c04-1beaf74e8c6f",
+              "altText":"alacarteBackground",
+              "width":"1920",
+              "height":"475"
+          },
+           "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"FAR  EAST A’LA CARTE ",
+            "text1":"At any working time",
+            "text2":"Booking is not required",
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon ",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "Beach View",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText":"leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText": "alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734592937714alacarte.png?alt=media&token=e8110b18-4db2-4945-92e3-c2ff819767b1",
+            "altText":"alacarte",
+            "width": 1920,
+            "height": 1080,
+
+            "header":"",
+            "text1":"",
+            "text2":"",
+            
+            "buttonText":"More About",
+            "buttonLink":"/",
+
+            "image":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          },
+          
+          "image2":{
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+            "altText": "leafIcon",
+            "width": 20,
+            "height": 20
+          }
+
+          }
+          
+        ]
+          
+  }
+  },
+  {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+},
+{
+    "type": "AccommodationSection",
+    "props": {
+        "header":"ACCOMMODATION",
+        "text":"Experience the most relaxing holiday in the plush comfort of soothing rooms inspired by the nature.",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"FAMILY ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"King ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Standard ROOM",
+            "buttonText":"More About",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+  {
+    "type": "SpecialOffersSection",
+    "props": {
+        "header":"Special Offers",
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Port Nature Hotel",
+            "header":"Become a VIP customer",
+            "text":"By booking a trip on our website",
+            "width": 343,
+            "height": 504
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Mixology Expert",
+            "text":"Presentation specal for you",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737544119450-FamilyRoom.png?alt=media&token=d23cf21a-a068-4efd-ba89-ae562afa777d",
+            "altText": "Beach View",
+            "header":"Wedding gift",
+            "text":"Spend time together",
+            "buttonLink":"/",
+            "width": 343,
+            "height": 504
+          }
+        ]
+       
+    }
+         
+},
+{
+    "type": "InstagramSection",
+    "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546449416-newinsta.png?alt=media&token=3bfa45c6-c0f9-4dab-aeee-dba7afdb9dbc",
+            "width": 379,
+            "height": 408
+          },
+
+         "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "altText": "Beach View",
+            "width": 270,
+            "height": 270
+          },
+
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/images%2F1737546511921-follow4.png?alt=media&token=b50f8ca7-87e9-465f-925b-3274dfcd74dc",
+            "width": 270,
+            "height": 270
+          }
+        ]
+       
+    }
+         
+}
+    ]
+    }
+
+
+}

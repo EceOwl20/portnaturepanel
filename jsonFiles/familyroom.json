@@ -1,0 +1,452 @@
+{
+  "pageName": "familyroom",
+  "components": [
+    {
+      "type": "MainBackground",
+      "props": {
+        "image": 
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": {
+              "en": "Port Nature Hotel",
+              "tr": "Port Nature Otel",
+              "de": "Port Nature Hotel",
+              "ru": "Порт Натуре Отель"
+            },
+            "width": 1920,
+            "height": 1079
+          },
+          "header":{
+              "en":"Family Room",
+              "tr":"Family Room",
+              "de":"Family Room",
+              "ru":"Family Room"
+          }
+      }
+    },
+
+     {
+      "type": "SubroomInfoSection",
+      "props": {
+
+        "text":{
+            "en": "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home",
+              "tr":  "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home",
+              "de":  "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home",
+              "ru": "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home"
+        },
+
+        "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "text": {
+          "en": "4 Adult + 1",
+          "tr": "4 Adult + 1",
+          "de": "4 Adult + 1",
+          "ru": "4 Adult + 1"
+        },
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "text": {
+          "en": "2 Single Beds",
+          "tr": "2 Single Beds",
+          "de": "2 Single Beds",
+          "ru": "2 Single Beds"
+        },
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "text": {
+          "en": "1 Double Bed",
+          "tr": "1 Double Bed",
+          "de": "1 Double Bed",
+          "ru": "1 Double Bed"
+        },
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "45 m2",
+          "tr": "45 m2",
+          "de": "45 m2",
+          "ru": "45 m2"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "text": {
+          "en": "Corner Sea View",
+          "tr": "Corner Sea View",
+          "de": "Corner Sea View",
+          "ru": "Corner Sea View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      }
+    ],
+
+     "images": [
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": {
+              "en": "Port Nature Hotel",
+              "tr": "Port Nature Otel",
+              "de": "Port Nature Hotel",
+              "ru": "Порт Натуре Отель"
+            },
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": {
+              "en": "Beach View",
+              "tr": "Plaj Manzarası",
+              "de": "Strandblick",
+              "ru": "Вид на пляж"
+            },
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+            "altText": {
+              "en": "Beach View",
+              "tr": "Plaj Manzarası",
+              "de": "Strandblick",
+              "ru": "Вид на пляж"
+            },
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+
+        "header":{
+            "en": "Comfort for the whole family",
+              "tr":"Comfort for the whole family",
+              "de": "Comfort for the whole family",
+              "ru": "Comfort for the whole family"
+        },
+
+         "text2":{
+            "en": "A luxurious holiday with your loved ones is waiting for you in Family Rooms designed in the comfort of your own home",
+            "tr": "A luxurious holiday with your loved ones is waiting for you in Family Rooms designed in the comfort of your own home",
+            "de": "A luxurious holiday with your loved ones is waiting for you in Family Rooms designed in the comfort of your own home",
+            "ru": "A luxurious holiday with your loved ones is waiting for you in Family Rooms designed in the comfort of your own home"
+        },
+
+        "span":{
+            "en": "Enjoy your holiday",
+            "tr": "Enjoy your holiday",
+            "de": "Enjoy your holiday",
+            "ru": "Enjoy your holiday"
+        }
+
+      }
+},
+
+{
+      "type": "RoomsFeatures",
+      "props": {
+          "header":{
+            "en": "Features",
+            "tr": "Features",
+            "de": "Features",
+            "ru": "Features"
+          },
+
+        "items": [
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        },
+        "largeWidth": 30.12,
+        "largeHeight": 47.63,
+        "smallWidth": 24,
+        "smallHeight": 38
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "2",
+          "tr": "2",
+          "de": "2",
+          "ru": "2"
+        },
+        "largeWidth": 44,
+        "largeHeight": 48,
+        "smallWidth": 35,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "45 m2",
+          "tr": "45 m2",
+          "de": "45 m2",
+          "ru": "45 m2"
+        },
+        "largeWidth": 33,
+        "largeHeight": 48,
+        "smallWidth": 26,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      },
+      {
+        "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+        "altText": {
+          "en": "Balcony / Terrace",
+          "tr": "Balcony / Terrace",
+          "de": "Balcony / Terrace",
+          "ru": "Balcony / Terrace"
+        }, 
+        
+        "text": {
+          "en": "Corner Side View",
+          "tr": "Corner Side View",
+          "de": "Corner Side View",
+          "ru": "Corner Side View"
+        },
+        "largeWidth": 34,
+        "largeHeight": 48,
+        "smallWidth": 27,
+        "smallHeight": 39
+      }
+    ],
+    "buttonText": {
+          "en": "Show More",
+          "tr": "Show More",
+          "de": "Show More",
+          "ru": "Show More"
+        },
+     "buttonText2": {
+          "en": "Show Less",
+          "tr": "Show Less",
+          "de": "Show Less",
+          "ru": "Show Less"
+        }
+      }
+},
+{
+      "type": "RoomPlan",
+      "props": {
+          "image":{
+              "firebaeUrl":"https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734696757046familyroomPlan.png?alt=media&token=a0f35d05-7d6a-4a28-8447-d6c26130c04c",
+              "altText":{
+                  "en": "familyroomPlan",
+                  "tr": "familyroomPlan",
+                  "de": "familyroomPlan",
+                  "ru": "familyroomPlan"
+              },
+              "width":"1920",
+              "height":"1079"
+              
+          },
+
+          "header":{
+                  "en": "Family Room",
+                  "tr": "Family Room",
+                  "de": "Family Room",
+                  "ru": "Family Room"
+              },
+
+              "text":{
+                  "en": "4 Adults + 1  ·  1 double bed  ·  2 single beds",
+                  "tr": "4 Adults + 1  ·  1 double bed  ·  2 single beds",
+                  "de": "4 Adults + 1  ·  1 double bed  ·  2 single beds",
+                  "ru": "4 Adults + 1  ·  1 double bed  ·  2 single beds"
+              },
+              "text2":{
+                  "en": "45 m²  ·  Corner Sea View",
+                  "tr": "45 m²  ·  Corner Sea View",
+                  "de": "45 m²  ·  Corner Sea View",
+                  "ru": "45 m²  ·  Corner Sea View"
+              }
+      }
+}
+
+  ]
+}

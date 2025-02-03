@@ -1,0 +1,157 @@
+{
+  "pageName": "layout",
+  "translations": {
+    "en": [
+      {
+        "type": "Footer",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      },
+       {
+        "type": "Header",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 197,
+            "height": 112
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      }
+    ],
+    "tr": [
+      {
+        "type": "Footer",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      },
+      {
+        "type": "Header",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 197,
+            "height": 112
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      }
+    ],
+    "de": [
+      {
+        "type": "Footer",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      },
+      {
+        "type": "Header",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 197,
+            "height": 112
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      }
+    ],
+    "ru": [
+      {
+        "type": "Footer",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      },
+      {
+        "type": "Header",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 197,
+            "height": 112
+          },
+          "image2": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          }
+          
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+    "pageName": "header",
+    "translations": {
+      "en": [
+        {
+          "type": "navbar",
+          "props": {
+            "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1079
+            },
+            "buttonText": "BOOK NOW",
+            "buttonLink": "/",
+             "items": [
+                 {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 }
+             ]
+          }
+        }
+      ],
+      "tr": [
+       {
+          "type": "navbar",
+          "props": {
+            "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1079
+            },
+            "buttonText": "BOOK NOW",
+            "buttonLink": "/",
+             "items": [
+                 {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 }
+             ]
+          }
+        }
+      ],
+      "de": [
+        {
+          "type": "navbar",
+          "props": {
+            "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1079
+            },
+            "buttonText": "BOOK NOW",
+            "buttonLink": "/",
+             "items": [
+                 {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 }
+             ]
+          }
+        }
+      ],
+      "ru": [
+        {
+          "type": "navbar",
+          "props": {
+            "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1079
+            },
+            "buttonText": "BOOK NOW",
+            "buttonLink": "/",
+             "items": [
+                 {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 },
+                  {
+                     "text":"",
+                     "link":""
+                 }
+             ]
+          }
+        }
+      ]
+    }
+  }
+  

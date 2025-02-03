@@ -1,0 +1,103 @@
+@import './styles/fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .corner-extended {
+    /* Üst iki köşeye eliptik radius uyguluyoruz */
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+  }
+}
+
+/* Takvim genel görünümü */
+.custom-calendar {
+  @apply bg-white border border-gray-300 rounded-lg shadow-lg font-monserrat;
+}
+
+/* Günlerin hizalanması (grid yapısı) */
+.react-datepicker__week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 sütun */
+  gap: 0rem; /* Hücreler arasına boşluk */
+}
+
+/* Günlerin görünümü */
+.custom-day {
+  @apply w-[35px] h-[35px] flex items-center justify-center leading-normal text-customGray80 rounded-lg text-[11px] font-normal font-monserrat;
+}
+
+/* Sadece mevcut ayın günlerini göster */
+.react-datepicker__day--outside-month {
+  @apply text-gray-300; 
+}
+
+/* Seçili gün */
+.react-datepicker__day--selected {
+  @apply bg-customGray text-white font-bold rounded-[22px];
+}
+
+/* Hover efekti */
+.react-datepicker__day:hover {
+  @apply bg-blue-100;
+}
+
+/* Bugün olan gün */
+.react-datepicker__day--today {
+  @apply font-bold text-customGray underline;
+}
+
+/* Başlık (Ay ve Yıl) */
+.react-datepicker__header {
+  @apply bg-white text-customGray font-semibold rounded-t-lg p-1;
+}
+
+/* Ay ve Yıl yazısı */
+.react-datepicker__current-month {
+  @apply text-[14px] font-semibold leading-normal text-gray-800;
+}
+
+/* Gün isimleri (Su, Mo, Tu, ...) */
+.react-datepicker__day-names {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 sütun */
+  text-align: center;
+  font-weight: 400;
+  margin-bottom:2px;
+  margin-top:2px;
+  margin-left: 10px;
+  gap: 0rem;
+  font-size: 11px;
+  color: rgba(35, 48, 56, 0.80);
+}
+
+
+/* Navigasyon Okları */
+.react-datepicker__navigation {
+  @apply text-gray-600 hover:text-blue-500;
+}
+
+.react-datepicker__navigation-icon::before {
+  @apply text-gray-700;
+}
+
+.my-ellipse {
+  width: 757px;
+  height: 757px;
+  flex-shrink: 0;
+  border-radius: 757px;
+  background: #2E34FC;
+  filter: blur(325px);
+}
+
+.my-ellipse2 {
+  width: 757px;
+  height: 757px;
+  flex-shrink: 0;
+  border-radius: 757px;
+  background: #A100FF;
+  filter: blur(325px);
+}
+
+

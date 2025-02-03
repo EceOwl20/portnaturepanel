@@ -1,0 +1,729 @@
+{
+  "pageName": "kidsconcept",
+  "translations": {
+    "en": [
+      {
+        "type": "MainBackground",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "header": "STANDARD Rooms",
+          "buttonText": "Side View",
+          "buttonText2": "Sea View",
+          "buttonText3": "Land View",
+          "buttonLink": "/",
+          "buttonLink2": "/",
+          "buttonLink3": "/"
+        }
+      },
+      {
+        "type": "InfoIconSection",
+        "props": {
+          "items": [
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+          "text": "MINI ALA'CARTE",
+          "largeWidth": 30.12,
+          "largeHeight": 47.63,
+          "smallWidth": 24,
+          "smallHeight": 38
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+          "text":  "BABYSITTING",
+          "largeWidth": 44,
+          "largeHeight": 48,
+          "smallWidth": 35,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+          "text":"AQUAPARK",
+          "largeWidth": 33,
+          "largeHeight": 48,
+          "smallWidth": 26,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+          "text": "MINI DISCO",
+          "largeWidth": 34,
+          "largeHeight": 48,
+          "smallWidth": 27,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+          "text":"SPECIAL COURSES",
+          "largeWidth": 34.8,
+          "largeHeight": 47.54,
+          "smallWidth": 28,
+          "smallHeight": 38
+        }
+      ],
+          "text": "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home"
+         
+        }
+      },
+      {
+        "type": "BorderCarousel",
+        "props": {
+          "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "BorderCarousel2",
+        "props": {
+           "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "KidsBannerSection",
+        "props": {
+          "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+              "text": "Balcony / Terrace",
+              "largeWidth": 30.12,
+              "largeHeight": 47.63,
+              "smallWidth": 24,
+              "smallHeight": 38
+            },
+            "text":"Aquapark",
+            "span":"18 slides . Safety for your child"
+        }
+      },
+      {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+}
+    ],
+    "tr": [
+      {
+        "type": "MainBackground",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "header": "STANDARD Rooms",
+          "buttonText": "Side View",
+          "buttonText2": "Sea View",
+          "buttonText3": "Land View",
+          "buttonLink": "/",
+          "buttonLink2": "/",
+          "buttonLink3": "/"
+        }
+      },
+      {
+        "type": "InfoIconSection",
+        "props": {
+          "items": [
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+          "text": "MINI ALA'CARTE",
+          "largeWidth": 30.12,
+          "largeHeight": 47.63,
+          "smallWidth": 24,
+          "smallHeight": 38
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+          "text":  "BABYSITTING",
+          "largeWidth": 44,
+          "largeHeight": 48,
+          "smallWidth": 35,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+          "text":"AQUAPARK",
+          "largeWidth": 33,
+          "largeHeight": 48,
+          "smallWidth": 26,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+          "text": "MINI DISCO",
+          "largeWidth": 34,
+          "largeHeight": 48,
+          "smallWidth": 27,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+          "text":"SPECIAL COURSES",
+          "largeWidth": 34.8,
+          "largeHeight": 47.54,
+          "smallWidth": 28,
+          "smallHeight": 38
+        }
+      ],
+          "text": "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home"
+         
+        }
+      },
+      {
+        "type": "BorderCarousel",
+        "props": {
+          "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "BorderCarousel2",
+        "props": {
+           "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "KidsBannerSection",
+        "props": {
+          "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+              "text": "Balcony / Terrace",
+              "largeWidth": 30.12,
+              "largeHeight": 47.63,
+              "smallWidth": 24,
+              "smallHeight": 38
+            },
+            "text":"Aquapark",
+            "span":"18 slides . Safety for your child"
+        }
+      },
+      {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+}
+    ],
+    "de": [
+      {
+        "type": "MainBackground",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "header": "STANDARD Rooms",
+          "buttonText": "Side View",
+          "buttonText2": "Sea View",
+          "buttonText3": "Land View",
+          "buttonLink": "/",
+          "buttonLink2": "/",
+          "buttonLink3": "/"
+        }
+      },
+      {
+        "type": "InfoIconSection",
+        "props": {
+          "items": [
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+          "text": "MINI ALA'CARTE",
+          "largeWidth": 30.12,
+          "largeHeight": 47.63,
+          "smallWidth": 24,
+          "smallHeight": 38
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+          "text":  "BABYSITTING",
+          "largeWidth": 44,
+          "largeHeight": 48,
+          "smallWidth": 35,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+          "text":"AQUAPARK",
+          "largeWidth": 33,
+          "largeHeight": 48,
+          "smallWidth": 26,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+          "text": "MINI DISCO",
+          "largeWidth": 34,
+          "largeHeight": 48,
+          "smallWidth": 27,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+          "text":"SPECIAL COURSES",
+          "largeWidth": 34.8,
+          "largeHeight": 47.54,
+          "smallWidth": 28,
+          "smallHeight": 38
+        }
+      ],
+          "text": "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home"
+         
+        }
+      },
+      {
+        "type": "BorderCarousel",
+        "props": {
+          "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "BorderCarousel2",
+        "props": {
+           "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "KidsBannerSection",
+        "props": {
+          "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+              "text": "Balcony / Terrace",
+              "largeWidth": 30.12,
+              "largeHeight": 47.63,
+              "smallWidth": 24,
+              "smallHeight": 38
+            },
+            "text":"Aquapark",
+            "span":"18 slides . Safety for your child"
+        }
+      },
+      {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+}
+    ],
+    "ru": [
+      {
+        "type": "MainBackground",
+        "props": {
+          "image": {
+            "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+            "altText": "Port Nature Hotel",
+            "width": 1920,
+            "height": 1079
+          },
+          "header": "STANDARD Rooms",
+          "buttonText": "Side View",
+          "buttonText2": "Sea View",
+          "buttonText3": "Land View",
+          "buttonLink": "/",
+          "buttonLink2": "/",
+          "buttonLink3": "/"
+        }
+      },
+      {
+        "type": "InfoIconSection",
+        "props": {
+          "items": [
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+          "text": "MINI ALA'CARTE",
+          "largeWidth": 30.12,
+          "largeHeight": 47.63,
+          "smallWidth": 24,
+          "smallHeight": 38
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421485887AquaparkIcon.png?alt=media&token=303e0e3b-5a25-42ec-9cc7-13a7ff15c25e",
+          "text":  "BABYSITTING",
+          "largeWidth": 44,
+          "largeHeight": 48,
+          "smallWidth": 35,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421460852concertIcon.png?alt=media&token=d8f28480-a983-43d6-93e7-d1af0137af4e",
+          "text":"AQUAPARK",
+          "largeWidth": 33,
+          "largeHeight": 48,
+          "smallWidth": 26,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421402102surfboardIcon.png?alt=media&token=f9299a8a-8d7a-4a3a-8ebf-d9b683267d18",
+          "text": "MINI DISCO",
+          "largeWidth": 34,
+          "largeHeight": 48,
+          "smallWidth": 27,
+          "smallHeight": 39
+        },
+        {
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421520362entertainmentIcon.png?alt=media&token=9aa0040d-1101-485e-964f-58cdc1c9f6da",
+          "text":"SPECIAL COURSES",
+          "largeWidth": 34.8,
+          "largeHeight": 47.54,
+          "smallWidth": 28,
+          "smallHeight": 38
+        }
+      ],
+          "text": "A luxurious holiday with your loved ones is waiting for you in Family Rooms, designed in the comfort of your own home"
+         
+        }
+      },
+      {
+        "type": "BorderCarousel",
+        "props": {
+          "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "BorderCarousel2",
+        "props": {
+           "images": [
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913886565PortCover31.png?alt=media&token=c5c10142-a087-47af-a804-44544130ee19",
+              "altText": "Beach View",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            },
+            {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1733913813358PortCover1.png?alt=media&token=60d513fd-8f9b-4f6c-bb0f-839cd5dfab47",
+              "altText": "Port Nature Hotel",
+              "width": 1920,
+              "height": 1080,
+               "text": "Premium"
+            }
+          ]
+        }
+      },
+      {
+        "type": "KidsBannerSection",
+        "props": {
+          "image": {
+              "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734421426249locationIcon.png?alt=media&token=ef4cf75c-5127-49ed-a6b2-15bf44feee19",
+              "text": "Balcony / Terrace",
+              "largeWidth": 30.12,
+              "largeHeight": 47.63,
+              "smallWidth": 24,
+              "smallHeight": 38
+            },
+            "text":"Aquapark",
+            "span":"18 slides . Safety for your child"
+        }
+      },
+      {
+    "type": "ContactSection",
+    "props": {
+        "header":"Free contact call center",
+
+        "text":"Or online booking",
+
+        "phone":"+ 90 (242) 731 07 07",
+        "email":"info@portnature.com.tr",
+
+        "buttonText":"Send",
+
+        "buttonLink":"/",
+
+        "image":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734603783214callcenter.webp?alt=media&token=a50e406b-9351-44ce-9c4d-89608796392c",
+          "altText": "callcenter",
+          "width": 317,
+          "height": 283
+        },
+
+         "header2":"Send Message",
+
+        "text2":"All your questions, options, suggestions",
+
+        "checkboxText":"Ben robot değilim",
+                   "iconImage":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText":"leafIcon",
+          "width": 20,
+          "height": 20
+         },
+           "iconImage2":{
+          "firebaseUrl": "https://firebasestorage.googleapis.com/v0/b/dgtlface-1.firebasestorage.app/o/1734593246615leaf.png?alt=media&token=22ba1b0e-340e-4c0f-a84c-91490bc4a26c",
+          "altText": "leafIcon",
+          "width": 20,
+          "height": 20
+}
+    }
+         
+}
+    ]
+  }
+}
